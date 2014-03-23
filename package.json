@@ -1,0 +1,25 @@
+{
+  "name": "shoelace-dom",
+  "version": "0.1.0",
+  "description": "Analyze your app's CSS-HTML relationship in the DOMk",
+  "main": "index.js",
+  "repository": "https://github.com/shoelace-ui/shoelace-dom.git",
+  "keywords": [
+    "css",
+    "html",
+    "dom"
+  ],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rework": "^0.20.2",
+    "jsdom": "^0.10.3"
+  }
+}
